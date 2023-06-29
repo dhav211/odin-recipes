@@ -1,0 +1,46 @@
+.main-header {
+    text-align: center;
+    border: 2px dotted black;
+}
+
+.header-image {
+    width: 100vw;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    border: 2px dotted black;
+}
+
+.recipe-list {
+    width: 400px;
+    margin: auto;
+    border: 2px dotted black;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.recipe-list p {
+    text-align: center;
+}
+
+.dish-picture {
+    max-width: 100%;
+    width: 800;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dish-description {
+    text-align: center;
+    font-style: italic;
+}
+
+ul, ol {
+    background-color: aliceblue;
+    border: 8px solid #fff2a8;
+    border-radius: 16px;
+}
