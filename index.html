@@ -6,12 +6,33 @@
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1 class="main-header">Recipes for Eating Family Style</h1>
-    <img class="header-image" src="./images/family_stylejpg" alt="Family eating dinner">
-    <div class="recipe-list">
-        <p><a href="./recipes/lasagna.html">Lasagna</a></p>
-        <p><a href="./recipes/sloppy_joe.html">Sloppy Joes</a></p>
-        <p><a href="./recipes/pan_fried_pork_chops.html">Pan-Fried Pork Chops</a></p>
+    <div class="page-container">
+        <img class="header-image" src="./images/family_stylejpg" alt="Family eating dinner">
+        <h1 class="main-header">Recipes for Eating Family Style</h1>
+        <div class="recipe-list">
+            <button class="recipe-card" onclick="window.location.href='./recipes/lasagna.html'">
+                <img src="./recipes/images/lasanga.jpg">
+                <div class="recipe-card-description">
+                    <h3>Lasanga</h3>
+                    A pasta dish made from flat sheets of pasta with mozzarella and ricotta cheese, with meat and tomato sauce.
+                </div>
+            </button>
+            <button class="recipe-card" onclick="window.location.href='./recipes/sloppy_joe.html'">
+                <img src="./recipes/images/sloppy_joe.jpg">
+                <div class="recipe-card-description">
+                    <h3>Sloppy Joes</h3>
+                    A sandwich consisting of ground beef and onions in a tomato-based sauce served on a hamburger bun.
+                </div>
+            </button>
+            <button class="recipe-card" onclick="window.location.href='./recipes/pan_fried_pork_chops.html'">
+                <img src="./recipes/images/pork_chops.jpg">
+                <div class="recipe-card-description">
+                    <h3>Pan-Fried Pork Chops</h3>
+                    A simple dish made from fried pork in seasonings and flour.
+                </div>
+            </button>
+        </div>
     </div>
+
 </body>
 </html>
