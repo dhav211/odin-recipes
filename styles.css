@@ -33,20 +33,21 @@ h2 {
 }
 
 .recipe-card img {
-    width: 250px;
+    min-width: 200px;
+    width: 30%;
     height: auto;
     display: inline-block;
 }
 
 .recipe-card-description {
     display: inline-block;
-    width: 500px;
+    width: 65%;
     margin-top: 20px;
     vertical-align: top;
 }
 
 .recipe-list {
-    width: 800px;
+    width: 60%;
     margin: auto;
 }
 
