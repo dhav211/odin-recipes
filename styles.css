@@ -26,33 +26,31 @@ h2 {
     height: auto;
 }
 
-.recipe-card {
-    border: 2px dotted #333333;
-    background-color: white;
-    margin-bottom: 10px;
-}
-
-.recipe-card img {
-    min-width: 200px;
-    width: 30%;
-    height: auto;
-    display: inline-block;
-}
-
-.recipe-card-description {
-    display: inline-block;
-    width: 65%;
-    margin-top: 20px;
-    vertical-align: top;
-}
-
 .recipe-list {
+    display: flex;
+    flex-direction: column;
     width: 60%;
     margin: auto;
 }
 
-.recipe-list p {
-    text-align: center;
+.recipe-list > .recipe-card {
+    border: 2px dotted #333333;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.recipe-card > img {
+    flex: 1 1 0;
+    max-width: 500px;
+    min-width: 200px;
+    height: auto;
+}
+
+.recipe-card > .recipe-card-description {
+    flex: 1 1 0;
+    margin-top: 20px;
 }
 
 .dish-picture {
